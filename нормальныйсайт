@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>ЮАР</title>
+<head>
+ <style>
+   li.m {
+    width: 25%; /* Ширина блока */
+    text-align: center;
+   
+   }
+  li.p{ width: 100%; /* Ширина блока */
+    text-align: center;}
+   
+  </style>
+</head>
+<style>
+     h1{
+text-align: center;
+    color:#fa6c28;
+    font-size: 50px;
+ 
+    }
+   </style>
+<style>
+     h2{
+    text-align: center;
+    color:#e9ac5f;
+    font-size: 25px;
+ 
+    }
+   </style>
+<style>
+   body {
+    background-image: url(http://img-fotki.yandex.ru/get/4130/137106206.2bf/0_b5c8c_44d83383_orig.jpg) ; /* Путь к фоновому изображению */
+    background-repeat:no-repeat;
+    background-size: 100%; /* Современные браузеры */
+    background-color: #020202; /* Цвет фона */
+   }
+  </style>
+   <style>
+   
+      #navbar ul{
+       
+       
+        display: none;
+        background-image: url(http://wallpaperscraft.ru/image/fon_pyatna_svet_poverhnost_tekstura_50506_2000x1250.jpg) ;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        
+        
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+       
+        height: 60px;
+        background-color: #fa6c28;
+        
+       
+       }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        text-decoration: none;
+        text-align: center;
+        color: #020202;
+        display: block;
+        padding: 20px;
+        width: 100%;
+
+      }
+      #navbar ul li {display: inline-block; }
+      #navbar li:hover { background-color: #c13932; }
+      #navbar ul li:hover { background-color: #ff9271; }
+    </style>
+  </head>
+ 
+  <body>
+  
+<h1>Южная Африканская Республика</h1>
+   <ul  id="navbar">
+      
+      <li class=m text-align="center" ><a href="главная.html">Главная</a></li>
+      <li class=m><a href="культура.html">Культура</a></li>
+      <li class=m><a href="#">Информация о стране</a>
+        <ul>
+          <li class=p><a href="карта.html">Карта</a></li>
+          <li class=p><a href="жители.html">Жители</a></li>
+          <li class=p><a href="галерея.html">Фотогалeрея</a></li>
+        </ul>
+      </li>
+      <li class=m><a href="викторина.html">Викторина</a></li>
+    </ul>
+     <h2><p>Интересные факты о Южной Африканский Республике:</p></h2>
+    <br><div align="center"><img src="http://www.quest-pr.com/Content/Images/7b528d34-0fcf-4dd0-bd66-70f0b0b01434.jpg" width=70%></div></br>
+     <h2><p>В республике огромное количество диалектов и 11 официальных языков. Самые популярные языки в ЮАР — африканский и английский. Кстати , африканский напоминает смесь голландского и немецкого. Плюс ко всему он очень схож с фламандским языком , на котором говорит население северной части Бельгии.Некоторые полагают , что столицей ЮАР является Кейптаун или Йоханнесбург. Однако это заблуждение. Столица ЮАР — Претория , город расположенный в 150 километрах от Йоханнесбург и являющийся третьим по количеству населения в республике. Самый крупный город — Йоханнесбург. Здесь проживает около 11 миллионов человек. Самый опасный район Йоханнесбурга — Александрия , чем то похожий на Гарлем или Бронкс в Нью-Йорке. Здесь вы никогда не встретите южноафриканца , причем даже днем. Интересным фактом является то , что этот район расположен очень близко от делового центра города. Что касается дорог , то в ЮАР дороги в идеальном состоянии. На дорогах крайне редко можно встретить гаишников. Что касается дачи взяток гаишнику , то тут все строго. Сделать это практически невозможно.</p></h2>
+
+ 
+  </body>
+</html>
