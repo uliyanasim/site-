@@ -1,0 +1,114 @@
+ф<html>
+  <head>
+    <title>ЮАР</title>
+<head>
+ <style>
+   li.m {
+    width: 25%; /* Ширина блока */
+    text-align: center;
+   
+   }
+  li.p{ width: 100%; /* Ширина блока */
+    text-align: center;}
+   
+  </style>
+</head>
+<style>
+     h1{
+text-align: center;
+    color:#fa6c28;
+    font-size: 30px;
+ 
+    }
+   </style>
+<style>
+     h2{
+    text-align: center;
+    color:#f3f1ee;
+    font-size: 25px;
+ 
+    }
+   </style>
+<style>
+   body {
+    background-image: url(http://img-fotki.yandex.ru/get/4130/137106206.2bf/0_b5c8c_44d83383_orig.jpg) ; /* Путь к фоновому изображению */
+    background-repeat:no-repeat;
+    background-size: 100%; /* Современные браузеры */
+    background-color: #020202; /* Цвет фона */
+   }
+  </style>
+   <style>
+   
+      #navbar ul{
+       
+       
+        display: none;
+        background-image: url(http://wallpaperscraft.ru/image/fon_pyatna_svet_poverhnost_tekstura_50506_2000x1250.jpg) ;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        
+        
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+       
+        height: 60px;
+        background-color: #fa6c28;
+        
+       
+       }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        text-decoration: none;
+        text-align: center;
+        color: #020202;
+        display: block;
+        padding: 20px;
+        width: 100%;
+
+      }
+      #navbar ul li {display: inline-block; }
+      #navbar li:hover { background-color: #c13932; }
+      #navbar ul li:hover { background-color: #ff9271; }
+    </style>
+  </head>
+ 
+  <body>
+  
+<h1>карта</h1>
+   <ul  id="navbar">
+      
+      <li class=m ><a href="главная.html">Главная</a></li>
+      <li class=m><a href="культура.html">Культура</a></li>
+      <li class=m><a href="#">Информация о стране</a>
+        <ul>
+          <li class=p><a href="карта.html">Карта</a></li>
+          <li class=p><a href="жители.html">Жители</a></li>
+          <li class=p><a href="галерея.html">Фотогалeрея</a></li>
+        </ul>
+      </li>
+      <li class=m><a href="викторина.html">Викторина</a></li>
+    </ul>
+     <h2><p><br>ЮАР расположена на южной оконечности Африки. Длина береговой линии страны составляет 2 798 км. ЮАР имеет площадь 1 221 038 км² и по этому показателю занимает 24-е место в мире. Высшая точка ЮАР — гора Нджесути в Драконовых горах.</br></p></h2>
+    <br><div align="center"><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></div></br>
+</script>/
+<div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div>
+<div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
+<div><small><a href="https://onlinepartnersuchekostenlos.de/">100% sicher</a></small></div>
+<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+<script type='text/javascript'>function init_map(){var myOptions = {zoom:6,center:new google.maps.LatLng(-30.559482,22.937505999999985),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-30.559482,22.937505999999985)});infowindow = new google.maps.InfoWindow({content:'<strong>Название</strong><br>Южная Африка<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+
+ 
+  </body>
+</html>
